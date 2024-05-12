@@ -20,7 +20,7 @@ Both datasets adhere to the following structure:
 | Area Code        | Area code where the product is sourced    |
 | Sourcing Channel | Channel through which the product is sourced |
 | Product Size     | Size of the product                       |
-| Product Type     | Type of the product                       |
+| Product Type     | State of the product (Power or solid )    |
 | Month of Sourcing| Month when the product is sourced         |
 | Sourcing Cost    | Cost of sourcing the product              |
 
