@@ -1,16 +1,17 @@
-# AI-ML Assigment
+# AI-ML Assignment
 
 ## Overview
 
-This project aims to predict [describe what you're predicting] using machine learning models trained on the provided datasets. We have trained four different models - Random Forest, SARIMAX, LSTM, and GBMRegressor - and compared their performance. The GBMRegressor model yielded the best results.
-# Dataset
+This project aims to predict [describe what you're predicting] using machine learning models trained on the provided datasets. Four distinct models - Random Forest, SARIMAX, LSTM, and GBMRegressor - were trained and their performance compared. Notably, the GBMRegressor model exhibited superior results.
 
-The dataset consists of two CSV files:
+## Dataset
+
+The dataset comprises two CSV files:
 
 - `Training Dataset.csv`: Contains the training data.
 - `Test Dataset.csv`: Contains the test data.
 
-Both datasets have the same structure:
+Both datasets adhere to the following structure:
 
 | Column Name      | Description                               |
 |------------------|-------------------------------------------|
@@ -23,35 +24,31 @@ Both datasets have the same structure:
 | Month of Sourcing| Month when the product is sourced         |
 | Sourcing Cost    | Cost of sourcing the product              |
 
-# Models
+## Models
 
-We trained four models:
+The project trained four models:
 
 - Random Forest
 - SARIMAX
 - LSTM
 - GBMRegressor
 
-# Data Preprocessing
+## Data Preprocessing
 
-Before training the models, we performed the following preprocessing steps:
+Before model training commenced, the following preprocessing steps were undertaken:
 
-- Handled missing values
-- Examined and handled outliers in the 'Sourcing Cost' column
-- Explored and visualized individual columns
-- Engineered features as necessary
+- Handling missing values
+- Identifying and addressing outliers in the 'Sourcing Cost' column
+- Conducting exploratory data analysis and visualization on individual columns
+- Feature engineering as required
 
-# Results
+## Results
 
-The GBMRegressor model outperformed the other models in terms of [mention the evaluation metric]. Refer to the notebook for detailed results and analysis.
-
-## Overview
-
-This project aims to predict [describe what you're predicting] using machine learning models trained on the provided datasets. We have trained four different models - Random Forest, SARIMAX, LSTM, and GBMRegressor - and compared their performance. The GBMRegressor model yielded the best results.
+The GBMRegressor model demonstrated superior performance across evaluated metrics. Detailed results and analysis can be found in the notebook.
 
 ## Requirements
 
-To run the project, you'll need the following:
+To execute the project, the following prerequisites are necessary:
 
 - Python 3.x
 - Jupyter Notebook
@@ -64,9 +61,8 @@ To run the project, you'll need the following:
   - statsmodels
   - lightgbm
 
-You can install the required libraries by running:
+Install the requisite libraries using the command:
 
 ```bash
 pip install pandas numpy scikit-learn matplotlib seaborn statsmodels lightgbm
 
-# This structure places the workflow details at the top, followed by the detailed explanation and instructions for running the project.
