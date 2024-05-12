@@ -1,6 +1,8 @@
 # AI-ML Assignment
 
 ## Overview
+![Green and White Project Phases Flowchart](C:/Users/ASUS/Downloads/Green and White Project Phases Flowchart.png)
+
 
 This project aims to predict [describe what you're predicting] using machine learning models trained on the provided datasets. Four distinct models - Random Forest, SARIMAX, LSTM, and GBMRegressor - were trained and their performance compared. Notably, the GBMRegressor model exhibited superior results.
 
