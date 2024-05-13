@@ -32,7 +32,6 @@ Both datasets adhere to the following structure:
 The project trained four models:
 
 - Random Forest
-- SARIMAX
 - LSTM
 - GBMRegressor
 
